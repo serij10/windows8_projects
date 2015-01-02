@@ -1,0 +1,52 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="photoPuzzle.MenuPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <phone:Panorama Title="Photo Puzzle">
+
+            <!--Panorama item one-->
+            <phone:PanoramaItem Header="Camera">
+                <Grid>
+                    <StackPanel x:Name="Camera" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0">
+                        <TextBlock Text="Camera" FontSize="24" VerticalAlignment="Center"
+                           HorizontalAlignment="Center"   />
+                    </StackPanel>
+                </Grid>
+            </phone:PanoramaItem>
+
+            <!--Panorama item two-->
+            <phone:PanoramaItem Header="Phone Library">
+                <Grid>
+                    <StackPanel x:Name="YourLibrary" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2">
+                        <TextBlock Text="Phone Library" FontSize="24" VerticalAlignment="Center"
+                           HorizontalAlignment="Center" />
+                    </StackPanel>
+                </Grid>
+            </phone:PanoramaItem>
+
+            <!--Panorama item two-->
+            <phone:PanoramaItem Header="Random">
+                <Grid>
+                    <StackPanel x:Name="Random" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1">
+                        <TextBlock Text="Random" FontSize="24" VerticalAlignment="Center"
+                           HorizontalAlignment="Center" />
+                    </StackPanel>
+                </Grid>
+            </phone:PanoramaItem>
+        </phone:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,44 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="photoPuzzle.Gallery"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <phone:Panorama Title="Gallery">
+
+            <!--Panorama item one-->
+            <phone:PanoramaItem Header="animals">
+                <Grid>
+                    <StackPanel Orientation="Vertical">
+                        <StackPanel Orientation="Horizontal" >
+                            <Image Height="140" Width="140" Source="/Assets/animals/dog.jpg" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            <Image Height="140" Width="140" Source="/Assets/animals/cats.jpg" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <Image Height="140" Width="140" Source="/Assets/animals/delphins.jpg" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        <StackPanel Orientation="Horizontal" >
+                            <Image Height="140" Width="140" Source="/Assets/animals/dog2.jpg" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <Image Height="140" Width="140" Source="/Assets/animals/horse.jpg" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </phone:PanoramaItem>
+
+            <!--Panorama item two-->
+            <phone:PanoramaItem Header="cities">
+                <Grid/>
+            </phone:PanoramaItem>
+        </phone:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>
