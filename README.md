@@ -6,9 +6,9 @@ and turn it into a puzzle with 3 different levels to choose from. Also Go Random
 pictures for quick game
 
 Features :
-- local DB for saving highscores
+- local DB for saving high scores
 - access to phone's Photo Library
-- using Camera for taking photos withing the game
+- using Camera for taking photos within the game
 - 3 levels of difficulty
 - friendly and colourful interface
 - random function for shuffling default pictures
