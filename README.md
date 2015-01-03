@@ -5,7 +5,7 @@ With photoPuzzles you can take any photos using your Camera or pick your favouri
 and turn it into a puzzle with 3 different levels to choose from. Also Go Random button shuffles default in-game 
 pictures for quick game
 
-Feautures :
+Features :
 - local DB for saving highscores
 - access to phone's Photo Library
 - using Camera for taking photos withing the game
