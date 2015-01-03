@@ -14,6 +14,5 @@ Feautures :
 - random function for shuffling default pictures
 
 Link to the game on app store:
-
 http://www.windowsphone.com/en-ie/store/app/photopuzzles/d885be97-7fbf-4a29-8107-d4e46c4c034e
 
